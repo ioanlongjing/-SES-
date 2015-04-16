@@ -8,13 +8,13 @@ SJU Smart Embedded Systems 期中考
 最後把資料扔到iOS 的APP 裡
 
 ###`Node.JS`
-Node.JS [Download](https://nodejs.org/)
+  Node.JS [Download](https://nodejs.org/)
 
 ###`Arduino`
-Arduino [Download](http://www.arduino.cc/en/Main/Software)
+  Arduino [Download](http://www.arduino.cc/en/Main/Software)
 
 ###`Lib`
-Adafruit Sensor Libraray [Download](https://github.com/adafruit/Adafruit_Sensor)
+  Adafruit Sensor Libraray [Download](https://github.com/adafruit/Adafruit_Sensor)
 
-###`Ubified`
-Adafruit BMP085 Unified [Download](https://github.com/adafruit/Adafruit_BMP085_Unified)
+###`Unified`
+  Adafruit BMP085 Unified [Download](https://github.com/adafruit/Adafruit_BMP085_Unified)
