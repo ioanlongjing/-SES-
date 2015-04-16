@@ -27,6 +27,7 @@ SJU Smart Embedded Systems 期中考
   - $ npm install servi
 
  `Node.js`
-  - node serial2web.js #修改/dev/"cu.usbmodemXXX", 就能以port 8080 傳給Web Client
+  - node serial2web.js 
+  #修改/dev/"cu.usbmodemXXX", 就能以port 8080 傳給Web Client
 
 
