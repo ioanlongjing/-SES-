@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjd-La-Bqo">
+                                <rect key="frame" x="281" y="241" width="38" height="30"/>
+                                <state key="normal" title="Felch">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doURLFetch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hRV-mh-Mno"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAH-y8-efo">
+                                <rect key="frame" x="279" y="168" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWR-68-fvf">
+                                <rect key="frame" x="282" y="303" width="36" height="30"/>
+                                <state key="normal" title="Loop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doFetchloop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hZz-vg-tz4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.66075351797208626" green="0.80483005006553543" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="JAH-y8-efo" secondAttribute="centerX" id="Bvi-lI-Fog"/>
+                            <constraint firstAttribute="centerX" secondItem="bjd-La-Bqo" secondAttribute="centerX" id="S9m-qH-CmC"/>
+                            <constraint firstItem="bjd-La-Bqo" firstAttribute="top" secondItem="JAH-y8-efo" secondAttribute="bottom" constant="100" id="Yle-Za-e2q"/>
+                            <constraint firstItem="lWR-68-fvf" firstAttribute="top" secondItem="bjd-La-Bqo" secondAttribute="bottom" constant="100" id="ZOb-W2-iDP"/>
+                            <constraint firstAttribute="centerX" secondItem="lWR-68-fvf" secondAttribute="centerX" id="gty-O5-3TQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fetchButton" destination="bjd-La-Bqo" id="qaG-OJ-DON"/>
+                        <outlet property="fetchDatalabel" destination="JAH-y8-efo" id="fWB-Ie-IOt"/>
+                        <outlet property="loopButton" destination="lWR-68-fvf" id="fml-S3-14I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
