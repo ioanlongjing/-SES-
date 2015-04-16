@@ -12,17 +12,17 @@ SJU Smart Embedded Systems 期中考
 
 
 `Node.JS`
-  Node.JS [Download](https://nodejs.org/)
+  - Node.JS [Download](https://nodejs.org/)
 
 `Arduino`
-  Arduino [Download](http://www.arduino.cc/en/Main/Software)
+  - Arduino [Download](http://www.arduino.cc/en/Main/Software)
 
 `Lib`
-  Adafruit Sensor Libraray [Download](https://github.com/adafruit/Adafruit_Sensor)
+  - Adafruit Sensor Libraray [Download](https://github.com/adafruit/Adafruit_Sensor)
 
 `Unified`
-  Adafruit BMP085 Unified [Download](https://github.com/adafruit/Adafruit_BMP085_Unified)
+  - Adafruit BMP085 Unified [Download](https://github.com/adafruit/Adafruit_BMP085_Unified)
  
- `安裝網頁伺服器`
-  npm install servi
+ `Mac 安裝網頁伺服器`
+  - $ npm install servi
 
